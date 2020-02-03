@@ -1,0 +1,40 @@
+body {
+    background-color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    color: #ffffff;
+}
+
+h1, h2 {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 32px;
+
+}
+
+h2{
+    font-size: 16px;
+}
+
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+a {
+    background-color:navy;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 500px;
+}
