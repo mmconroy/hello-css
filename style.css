@@ -37,4 +37,52 @@ a:hover {
 
 img {
     width: 500px;
+    display: inline-block;
+}
+.nav {
+    margin-left: auto;
+
+}
+
+.navbar {
+    border: 2px white;
+    margin-right: auto;
+}
+
+#bio {
+    border: 2px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+#topsection {
+    display: inline-block
+}
+
+ul {
+    list-style: none;
+
+}
+
+
+/* not entirely sure on this bit yet
+.button{
+
+    padding: 20px navy;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 80px;
+    box-sizing: border-box;
+
+}
+*/
+
+.interest {
+
+}
+
+.int-img {
+    width: 200px;
+
 }

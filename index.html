@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,89 @@
     <title>Matt Youngs Bio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   
-    <!--Ideally this will be a top Nav Bar-->
-    <ul>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./resume.html">Resume</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./index.html">Main</a></li>
 
-    </ul>
+<body>
+
+    <!--Ideally this will be a top Nav Bar-->
+    <div class="navbar">
+        <span class="nav"><a href="./portfolio.html">Portfolio</a></span>
+        <span class="nav"><a href="./resume.html">Resume</a></span>
+        <span class="nav"><a href="./contact.html">Contact</a></span>
+        <span class="nav"><a href="./index.html">Main</a></span>
+
+    </div>
 
     <!-- This stuff would be to the left on desktop-->
 
-    <img src="./img/profile-pic copy.jpg" alt="photo of myself">
+    <div id="topsection">
+        <div>
+            <img src="./img/profile-pic copy.jpg" alt="photo of myself">
+        </div>
+        <!--This stuff would be to the right on desktop-->
+        <div id="bio">
+            <h1>Matt Youngs</h1>
+            <h2>Designer that codes</h2>
 
-    <!--This stuff would be to the right on desktop-->
+            <div class="button">
+                <a href="./contact.html">Contact</a>
+            </div>
 
-    <h1>Matt Youngs</h1>
-    <h2>Designer that codes</h2>
-    
-    <a href="./contact.html">Contact</a>
+            <p>Indinapolis based, Upstate New York raised, I've spent my life pursuing to make beautiful and functional
+                things.
+                I'm a designer looking to start building digital products.
+            </p>
 
-    <p>Indinapolis based, Upstate New York raised, I've spent my life pursuing to make beautiful and functional things.
-        I'm a designer looking to start building digital products. 
-    </p>
-    <p>I'm currently enrolled at Kenzie Academy under the UX Engineering Program,
-        in which I've learned to apply human centered design thinking to my work and am now learning to exact it through development.
-        You can see more of my work 
-        <a href="./portfolio.html">here</a> ,
-         <a href="https://www.linkedin.com/in/matt-youngs-70089a18b/">follow me on LinkedIn</a> , or 
-         <a href="./contact.html">contact me directly</a>
-    </p>
-    
+            <p>I'm currently enrolled at Kenzie Academy under the UX Engineering Program,
+                in which I've learned to apply human centered design thinking to my work and am now learning to exact it
+                through development.
+                You can see more of my work
+                <a href="./portfolio.html">here</a> ,
+                <a href="https://www.linkedin.com/in/matt-youngs-70089a18b/">follow me on LinkedIn</a> , or
+                <a href="./contact.html">contact me directly</a>
+
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <h1>Areas of Interest</h1>
+    <ul>
+        <li>
+            <div class="interest">
+                <h2>User Experience</h2>
+                <img class="int-img" src="./img/profile-pic copy.jpg" alt="">
+                <p> Applying human centered design thinking to make products better suit their customers.</p>
+            </div>
+        </li>
+        <li>
+            <div class="interest">
+                <h2>Product Design</h2>
+                <img class="int-img" src="./img/profile-pic copy.jpg" alt="">
+                <p> Applying human centered design thinking to make products better suit their customers.</p>
+            </div>
+        </li>
+        <li>
+            <div class="interest">
+                <h2>Front End Engineering</h2>
+                <img class="int-img" src="./img/profile-pic copy.jpg" alt="">
+                <p> Applying human centered design thinking to make products better suit their customers.</p>
+            </div>
+        </li>
+
+
+
+
+
+
+    </ul>
+
+
+
+
+
 </body>
+
 </html>
