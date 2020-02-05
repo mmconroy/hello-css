@@ -50,20 +50,11 @@ img {
 }
 
 #bio {
+    width: 600px;
     border: 2px solid white;
     padding: 10px;
     display: inline-block;
 }
-
-#topsection {
-    display: inline-block
-}
-
-ul {
-    list-style: none;
-
-}
-
 
 /* not entirely sure on this bit yet
 .button{
@@ -74,15 +65,38 @@ ul {
     border-radius: 5px;
     width: 80px;
     box-sizing: border-box;
-
 }
 */
 
+#topsection {
+    padding: 20px;
+    border: 2px solid #ffffff;
+    display: inline-block
+}
+
+
+ul {
+    list-style: none;
+}
+
 .interest {
+
+    width: 540px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
 
 }
 
 .int-img {
     width: 200px;
 
+}
+
+.int-disc {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
 }
