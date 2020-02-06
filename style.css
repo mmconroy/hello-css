@@ -11,7 +11,6 @@ h1, h2 {
 
 h1 {
     font-size: 32px;
-
 }
 
 h2{
@@ -28,7 +27,6 @@ a {
     background-color:navy;
     color: #ffffff;
     text-decoration: none;
-
 }
 
 a:hover {
@@ -39,9 +37,16 @@ img {
     width: 500px;
     display: inline-block;
 }
-.nav {
-    margin-left: auto;
 
+ul {
+    list-style: none;
+}
+
+/* Classes & IDs */
+
+.nav {
+    float: right;
+    margin: 0px 10px;
 }
 
 .navbar {
@@ -49,24 +54,48 @@ img {
     margin-right: auto;
 }
 
+
+#top {
+    border: 2px solid white;
+    display: block;
+}
+
+#profile-pic{  
+    width: 800px;
+}
+
 #bio {
-    width: 600px;
     border: 2px solid white;
     padding: 10px;
-    display: inline-block;
+    margin: 10px;
+    float: right;  
+}
+ 
+/*Buttons*/
+
+#bio-button{
+    background-color: white;
+    color: black;
 }
 
-/* not entirely sure on this bit yet
 .button{
-
-    padding: 20px navy;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: red;
+    padding: 20px 40px;
+    margin: 20px;
     text-align: center;
-    border: 2px solid #ffffff;
+    text-decoration: none;
+    border: none;
     border-radius: 5px;
-    width: 80px;
-    box-sizing: border-box;
+    width: 25%;
+    
 }
-*/
+
+.button:hover, #bio-button:hover{
+    background-color: blue;
+    color: white;
+}
 
 #topsection {
     padding: 20px;
@@ -75,23 +104,16 @@ img {
 }
 
 
-ul {
-    list-style: none;
-}
-
 .interest {
-
     width: 540px;
     padding: 20px;
     margin: 10px;
     border: 1px solid #ffffff;
     box-sizing: border-box;
-
 }
 
 .int-img {
     width: 200px;
-
 }
 
 .int-disc {
@@ -100,3 +122,22 @@ ul {
     border: 1px solid #ffffff;
     box-sizing: border-box;
 }
+/* Targeted Nesting*/
+
+.int-disc p {
+    font-size: 30px;
+}
+
+
+/*Cominators*/
+.comb{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px;
+}
+
+.comb > h1{ 
+    color: yellow;
+}
+
