@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(./type/Open_Sans/OpenSans-Regular.ttf);
+}
+body {
+  font-family: "Open Sans";
+  background-color: #737373;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-color: #c4c4c4;
+  box-sizing: border-box;
+  margin: 20px;
+  width: 264px;
+}
+
+.article > * {
+  margin: 12px;
+}
+img {
+  width: 240px;
+  margin: auto;
+}
+.profile {
+  width: 48px;
+}
+
+.data {
+  display: flex;
+  align-content: flex-start;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.namedate {
+  display: flex;
+  flex-direction: column;
+}
+.namedate > p {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.preview {
+  font-size: 16px;
+}
